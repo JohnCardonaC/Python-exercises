@@ -34,3 +34,20 @@ for i in list4:
     if (i < minNum):
         minNum = i
 print(minNum)
+
+
+''''
+5. Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
+
+Sample List : ['abc', 'xyz', 'aba', '1221']
+
+Expected Result : 2
+'''
+
+list5 = ['abc', 'xyz', 'aba', '1221',
+         "asjkl", "jkshda", "raskjr", "ee",  "eae"]
+countList = 0
+for x in list5:
+    if ((x[0] == x[-1]) and (len(x) > 2)):
+        countList += 1
+print(countList)
