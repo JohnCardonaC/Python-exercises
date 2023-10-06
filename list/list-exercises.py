@@ -100,3 +100,17 @@ n = 3
 for i in list10:
     if len(i) > n:
         print(i)
+
+
+# 11. Write a Python function that takes two lists and returns True if they have at least one common member.
+
+list11a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list11b = [1,  102, 123, 43, 45]
+comp = False
+
+for i in list11a:
+    for x in list11b:
+        if i == x:
+            comp = True
+            break
+print(comp)
