@@ -79,3 +79,11 @@ for i in list7:
         noDiplictaeList.append(i)
 noDiplictaeList.sort()
 print(noDiplictaeList)
+
+
+# 8. Write a Python program to check if a list is empty or not.
+list8 = []
+if len(list8) == 0:
+    print("La lista está vacia")
+else:
+    print("La lista no está vacia")
