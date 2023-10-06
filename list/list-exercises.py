@@ -51,3 +51,20 @@ for x in list5:
     if ((x[0] == x[-1]) and (len(x) > 2)):
         countList += 1
 print(countList)
+
+
+''''
+6. Write a Python program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
+
+Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+'''
+
+list6 = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+# list6 = [1, 3, 5, 75, 23]
+def last(n): return n[-1]
+
+
+list6.sort(key=last)
+print(list6)
