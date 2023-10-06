@@ -91,3 +91,12 @@ else:
 # 9. Write a Python program to clone or copy a list.
 original_list9 = [10, 22, 44, 23, 4]
 new_list9 = list(original_list9)
+
+
+# 10. Write a Python program to find the list of words that are longer than n from a given list of words.
+list10 = ["hola", "No", "yes", "Multifuncional",
+          "Esfero", "Memoria", "Universidad", ]
+n = 3
+for i in list10:
+    if len(i) > n:
+        print(i)
