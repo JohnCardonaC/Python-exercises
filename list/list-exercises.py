@@ -1,6 +1,7 @@
 
 # 1. Write a Python program to sum all the items in a list.
 
+from random import shuffle
 enteros = [1, 2, 3, 4, 5, 7, 10]
 sumNumbers = 0
 for i in enteros:
@@ -133,3 +134,10 @@ print(list12)
 list14 = [2, 312, 1, 45, 234, 6345, 765, 7632, 13, 16]
 num = [x for x in list14 if x % 2 != 0]
 print(num)
+
+
+# 15. Write a Python program to shuffle and print a specified list.
+
+color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+shuffle(color)
+print(color)
