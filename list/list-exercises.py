@@ -68,3 +68,14 @@ def last(n): return n[-1]
 
 list6.sort(key=last)
 print(list6)
+
+
+# 7. Write a Python program to remove duplicates from a list.
+list7 = ["1", "4", "7", "4", "4", "4", "4"]
+noDiplictaeList = []
+
+for i in list7:
+    if i not in noDiplictaeList:
+        noDiplictaeList.append(i)
+noDiplictaeList.sort()
+print(noDiplictaeList)
