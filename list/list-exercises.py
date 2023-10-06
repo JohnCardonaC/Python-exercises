@@ -87,3 +87,7 @@ if len(list8) == 0:
     print("La lista está vacia")
 else:
     print("La lista no está vacia")
+
+# 9. Write a Python program to clone or copy a list.
+original_list9 = [10, 22, 44, 23, 4]
+new_list9 = list(original_list9)
