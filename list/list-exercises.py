@@ -141,3 +141,11 @@ print(num)
 color = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 shuffle(color)
 print(color)
+
+# 16. Write a Python program to generate and print a list of the first and last 5 elements where the values are square numbers between 1 and 30 (both included).
+list16 = []
+for i in range(1, 6):
+    list16.append(i**2)
+for x in range(26, 31):
+    list16.append(x**2)
+print(list16)
