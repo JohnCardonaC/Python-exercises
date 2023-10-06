@@ -114,3 +114,15 @@ for i in list11a:
             comp = True
             break
 print(comp)
+
+
+# 12. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
+
+list12 = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+list12.pop(0)
+list12.pop(3)
+list12.pop(3)
+
+print(list12)
+
+# Se resta un valor en cada pop ya que al eliminar un elemento de la lista el len cambia
