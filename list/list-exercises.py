@@ -149,3 +149,20 @@ for i in range(1, 6):
 for x in range(26, 31):
     list16.append(x**2)
 print(list16)
+
+""""
+17. Write a Python program to check if each number is prime in a given list of numbers. Return True if all numbers are prime otherwise False.
+Sample Data:
+([0, 3, 4, 7, 9]) -> False
+([3, 5, 7, 13]) -> True
+([1, 5, 3]) -> False
+"""
+
+list17 = [3, 11, 13, 17]
+primo = True
+for i in list17:
+    for x in range(2, i):
+        if i % x == 0:
+            primo = False
+            break
+print(primo)
