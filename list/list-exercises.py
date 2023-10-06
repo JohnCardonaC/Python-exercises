@@ -126,3 +126,10 @@ list12.pop(3)
 print(list12)
 
 # Se resta un valor en cada pop ya que al eliminar un elemento de la lista el len cambia
+
+
+# 14. Write a Python program to print the numbers of a specified list after removing even numbers from it.
+
+list14 = [2, 312, 1, 45, 234, 6345, 765, 7632, 13, 16]
+num = [x for x in list14 if x % 2 != 0]
+print(num)
