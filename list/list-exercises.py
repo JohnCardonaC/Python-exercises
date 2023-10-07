@@ -1,6 +1,7 @@
 
 # 1. Write a Python program to sum all the items in a list.
 
+import itertools
 from random import shuffle
 enteros = [1, 2, 3, 4, 5, 7, 10]
 sumNumbers = 0
@@ -166,3 +167,9 @@ for i in list17:
             primo = False
             break
 print(primo)
+
+# 18. Write a Python program to generate all permutations of a list in Python.
+
+list18 = [1, 4, 5]
+
+print(list(itertools.permutations(list18)))
