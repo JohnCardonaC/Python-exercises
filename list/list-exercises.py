@@ -173,3 +173,24 @@ print(primo)
 list18 = [1, 4, 5]
 
 print(list(itertools.permutations(list18)))
+
+
+""""
+19. Write a Python program to calculate the difference between the two lists.
+
+Imagen sample
+https://www.w3resource.com/w3r_images/Python-data-type-list-excercise-19.png
+"""
+
+list19a = [1, 3, 5, 7, 9]
+list19b = [1, 2, 4, 6, 7, 8]
+resultadoList19 = []
+
+for i in list19a:
+    for x in list19b:
+        if i == x:
+            list19a.remove(i)
+            list19b.remove(x)
+resultadoList19.extend(list19a)
+resultadoList19.extend(list19b)
+print(resultadoList19)
