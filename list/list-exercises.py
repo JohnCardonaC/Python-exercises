@@ -201,3 +201,22 @@ list20 = [5, 6, 12, 324, 1, 3, 9, 4, 3, 2, 67, 8, 8912]
 
 for x in list20:
     print("Index:", list20.index(x), "value:", x)
+
+
+# 21. Write a Python program to convert a list of characters into a string.
+
+list21 = ["H", "o", "l", "a"]
+stringNew = ""
+
+for x in list21:
+    stringNew += x
+print(stringNew)
+print(type(stringNew))
+
+
+# Solucion 2
+
+list21b = ["H", "o", "l", "a"]
+stringNew = "".join(list21b)
+print(stringNew)
+print(type(stringNew))
