@@ -194,3 +194,10 @@ for i in list19a:
 resultadoList19.extend(list19a)
 resultadoList19.extend(list19b)
 print(resultadoList19)
+
+
+# 20. Write a Python program to access the index of a list.
+list20 = [5, 6, 12, 324, 1, 3, 9, 4, 3, 2, 67, 8, 8912]
+
+for x in list20:
+    print("Index:", list20.index(x), "value:", x)
